@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+body {
+    height: 100vh;
+    background-color: #f4e8dc;
+}
+
+.nav {
+    height: 100px;
+    background-color: #477843;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav .logo {
+    border-radius: 40px;
+    margin-right: 200px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(250, 249, 237);
+    opacity: 0.8;
+    transition: 0.5s;
+
+
+}
+
+.nav a:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.nav .sign-in {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(99, 83, 83);
+    color: #f4e8dc;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.nav .sign-in:hover {
+    background-color: #8d7f74;
+    color: rgb(239, 229, 229);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.nav .join-now {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(99, 83, 83);
+    color: #f4e8dc;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.nav .join-now:hover {
+    background-color: #8d7f74;
+    color: #f4e8dc;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.text {
+    height: 400px;
+    width: 550px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.text p {
+    margin-top: 10px;
+    width: 550px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.text .order-now {
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(16, 63, 25);
+    color: #eae4df;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.text .order-now:hover {
+    transform: scale(1.1);
+    background-color: #d9cfc7;
+    color: rgb(79, 143, 79);
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.icons .instagram {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main {
+    display: flex;
+}
+
+.drinks {
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 60px;
+    transition: 0.5s;
+}
+
+.drinks:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    height: 100px;
+    background-color: #477843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: #eae4df;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(171, 169, 163);
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.footer p:hover {
+    text-decoration: none;
+    color: rgb(218, 216, 206);
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.footer a:hover {
+    transform: scale(1.1);
+    color: #eae4df;
+}
